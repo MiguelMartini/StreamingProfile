@@ -1,0 +1,85 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.imgSelector {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; /* Deixa a div circular */
+    background-color: #353F5F;
+    overflow: hidden; /* Impede que a imagem saia da div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.2); 
+    border: none;
+    
+}
+.button{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.profileImg img {
+    width: 100%; 
+    height: 100%;
+}
+
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    height: 40px;
+    background-color: #313A5B;
+    border-radius: 8px;
+}
+.LabelName{
+    color: #A0A5B9;
+    font-weight: bold;
+    font-size: 20px;
+}
+.inputName{
+    border: none;
+    background-color: #3E4769;
+    border-radius: 4px;
+    color: #A0A5B9;
+    border: none;
+    outline:  none;
+    font-size: 20px;
+    width: 230px;
+    padding-left: 10px;
+}
+
+
+.Button{
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #313A5B;
+    transition: 0,4 ease;
+}
+.Button:hover{
+    background-color: #A0A5B9;
+}

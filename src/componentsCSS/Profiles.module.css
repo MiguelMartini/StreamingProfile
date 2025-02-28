@@ -1,0 +1,43 @@
+.profileContainer{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+.profileImg {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; /* Deixa a div circular */
+    background-color: #353F5F;
+    overflow: hidden; /* Impede que a imagem saia da div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.2); 
+    border: none;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.profileImg img {
+    width: 100%; 
+    height: 100%;
+}
+.nameProfile{
+    color: #c7c9d3;
+    cursor: default;
+    border: none;
+    font-size: 20px;
+    text-shadow: 1px 3px 15px rgb(0 , 0 ,0 , 0.3);
+}
+/* 353F5F */
