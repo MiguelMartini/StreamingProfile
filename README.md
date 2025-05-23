@@ -15,4 +15,6 @@ Link: https://github.com/MiguelMartini/BackEnd-StreamingProfile
 # 🚀 Visualização do Projeto
 ![image](https://github.com/user-attachments/assets/c738262c-ddf5-4dd2-8f6d-2562760dda77)
 ![image](https://github.com/user-attachments/assets/f1486017-242b-487e-8852-9f058e1b8894)
+![image](https://github.com/user-attachments/assets/89f40ba5-c148-42d0-be46-7d3812878a72)
+
 
